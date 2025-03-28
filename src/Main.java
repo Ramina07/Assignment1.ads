@@ -23,5 +23,6 @@ public class Main {
         System.out.println("Fibonacci of " + fib1 + ": " + Problem5.fibonacci(fib1));
         System.out.println("Fibonacci of " + fib2 + ": " + Problem5.fibonacci(fib2));
 
+
     }
 }
