@@ -12,5 +12,16 @@ public class Main {
         int num2 = 10;
         System.out.println(num1 + " is prime? " + Problem3.isPrime(num1, 2));
         System.out.println(num2 + " is prime? " + Problem3.isPrime(num2, 2));
+
+        // Problem 4: Factorial
+        int number = 5;
+        System.out.println("Factorial of " + number + " is: " + Problem4.factorial(number));
+
+        // Problem 5: Fibonacci
+        int fib1 = 5;
+        int fib2 = 17;
+        System.out.println("Fibonacci of " + fib1 + ": " + Problem5.fibonacci(fib1));
+        System.out.println("Fibonacci of " + fib2 + ": " + Problem5.fibonacci(fib2));
+
     }
 }
