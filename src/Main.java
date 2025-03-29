@@ -23,6 +23,11 @@ public class Main {
         System.out.println("Fibonacci of " + fib1 + ": " + Problem5.fibonacci(fib1));
         System.out.println("Fibonacci of " + fib2 + ": " + Problem5.fibonacci(fib2));
 
+        // Problem 6: Power
+        int a = 2, n = 10;
+        System.out.println(a + "^" + n + " = " + Problem6.power(a, n));
+
+
 
     }
 }
