@@ -39,6 +39,13 @@ public class Main {
         System.out.println("\"" + s1 + "\" is all digits? " + Problem8.isAllDigits(s1, 0));
         System.out.println("\"" + s2 + "\" is all digits? " + Problem8.isAllDigits(s2, 0));
 
+        // Problem 9: Binomial Coefficient
+        int n1 = 2, k1 = 1;
+        int n2 = 7, k2 = 3;
+        System.out.println("C(" + n1 + "," + k1 + ") = " + Problem9.binomialCoefficient(n1, k1));
+        System.out.println("C(" + n2 + "," + k2 + ") = " + Problem9.binomialCoefficient(n2, k2));
+
+
 
 
 
