@@ -33,6 +33,13 @@ public class Main {
         Problem7.reverseArray(arr7, arr7.length - 1);
         System.out.println(); // to go to a new line
 
+        // Problem 8: Check if string is all digits
+        String s1 = "123456";
+        String s2 = "123a12";
+        System.out.println("\"" + s1 + "\" is all digits? " + Problem8.isAllDigits(s1, 0));
+        System.out.println("\"" + s2 + "\" is all digits? " + Problem8.isAllDigits(s2, 0));
+
+
 
 
 
