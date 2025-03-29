@@ -27,6 +27,14 @@ public class Main {
         int a = 2, n = 10;
         System.out.println(a + "^" + n + " = " + Problem6.power(a, n));
 
+        // Problem 7: Reverse Array
+        int[] arr7 = {1, 4, 6, 2};
+        System.out.print("Reversed array: ");
+        Problem7.reverseArray(arr7, arr7.length - 1);
+        System.out.println(); // to go to a new line
+
+
+
 
 
     }
